@@ -113,9 +113,7 @@ User - {}"""
 ⭐ Rating: {rating} / 10</b>
 """
 
-    FILE_CAPTION = """<b>📂 ғɪʟᴇ ɴᴀᴍᴇ : {file_name}
-    
-<b>📑 sɪᴢᴇ : {file_size} \n <blockquote> 𝖩𝗈𝗂𝗇➥ 「<a href="https://t.me/publicgood12">𝗧𝘃 𝘀𝗵𝗼𝘄 𝙊𝙧𝙞𝙜𝙞𝙣𝙖𝙡𝙨</a>」</blockquote> </b>""" 
+    FILE_CAPTION = """<b>📂 ғɪʟᴇ ɴᴀᴍᴇ : {file_name}📑 sɪᴢᴇ : {file_size} \n <blockquote> 𝖩𝗈𝗂𝗇➥ 「<a href="https://t.me/publicgood12">𝗧𝘃 𝘀𝗵𝗼𝘄 𝙊𝙧𝙞𝙜𝙞𝙣𝙖𝙡𝙨</a>」</blockquote> </b>""" 
     
 
     ALRT_TXT = """ᴊᴀʟᴅɪ ʏᴇʜᴀ sᴇ ʜᴀᴛᴏ !"""
@@ -124,17 +122,17 @@ User - {}"""
 
     NO_RESULT_TXT = """<b>ᴛʜɪs ᴍᴇssᴀɢᴇ ɪs ɴᴏᴛ ʀᴇʟᴇᴀsᴇᴅ ᴏʀ ᴀᴅᴅᴇᴅ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ 🤔 </b>"""
     
-    I_CUDNT = """🤧 𝐻𝑒𝓁𝓁𝑜 {}
+    I_CUDNT = """👋 𝐻𝑒𝓁𝓁𝑜 {}
 
-𝑰 𝒄𝒐𝒖𝒍𝒅𝒏'𝒕 𝑭𝒊𝒏𝒅 𝒂𝒏𝒚 𝒎𝒐𝒗𝒊𝒆 𝒐𝒓 𝑺𝒆𝒓𝒊𝒆𝒔 𝒊𝒏 𝒕𝒉𝒂𝒕 𝒏𝒂𝒎𝒆 🥺"""
+𝑰 𝒄𝒐𝒖𝒍𝒅𝒏'𝒕 𝑭𝒊𝒏𝒅 𝒂𝒏𝒚 𝒎𝒐𝒗𝒊𝒆 𝒐𝒓 𝑺𝒆𝒓𝒊𝒆𝒔 𝒊𝒏 𝒕𝒉𝒂𝒕 𝒏𝒂𝒎𝒆 🥺 \n use Request Command <code>#request movie name </code>"""
 
-    I_CUD_NT = """😑 𝐻𝑒𝓁𝓁𝑜 {}
+    I_CUD_NT = """👋 𝐻𝑒𝓁𝓁𝑜 {}
 
-𝗜 𝗰𝗼𝘂𝗹𝗱𝗻'𝘁 𝗳𝗶𝗻𝗱 𝗮𝗻𝘆𝘁𝗵𝗶𝗻𝗴 𝗿𝗲𝗹𝗮𝘁𝗲𝗱 𝘁𝗼 𝘁𝗵𝗮𝘁 😞... 𝗰𝗵𝗲𝗰𝗸 𝘆𝗼𝘂𝗿 𝘀𝗽𝗲𝗹𝗹𝗶𝗻𝗴."""
+𝗜 𝗰𝗼𝘂𝗹𝗱𝗻'𝘁 𝗳𝗶𝗻𝗱 𝗮𝗻𝘆𝘁𝗵𝗶𝗻𝗴 𝗿𝗲𝗹𝗮𝘁𝗲𝗱 𝘁𝗼 𝘁𝗵𝗮𝘁 😞... 𝗰𝗵𝗲𝗰𝗸 𝘆𝗼𝘂𝗿 𝘀𝗽𝗲𝗹𝗹𝗶𝗻𝗴. \nuse Request Command <code>#request movie name </code>"""
     
-    CUDNT_FND = """🤧 𝐻𝑒𝓁𝓁𝑜 {}
+    CUDNT_FND = """👋 𝐻𝑒𝓁𝓁𝑜 {}
 
-𝐂𝐨𝐮𝐥𝐝𝐧'𝐭 𝐟𝐢𝐧𝐝 𝐚𝐧𝐲𝐭𝐡𝐢𝐧𝐠 𝐫𝐞𝐥𝐞𝐭𝐞𝐝 𝐭𝐨 𝐭𝐡𝐚𝐭 𝐝𝐢𝐝 𝐲𝐨𝐮 𝐦𝐞𝐧𝐭 𝐚𝐧𝐲 𝐨𝐧𝐞 𝐨𝐟  𝐭𝐡𝐞𝐬𝐞 ??👇"""
+𝐂𝐨𝐮𝐥𝐝𝐧'𝐭 𝐟𝐢𝐧𝐝 𝐚𝐧𝐲𝐭𝐡𝐢𝐧𝐠 𝐫𝐞𝐥𝐞𝐭𝐞𝐝 𝐭𝐨 𝐭𝐡𝐚𝐭 𝐝𝐢𝐝 𝐲𝐨𝐮 𝐦𝐞𝐧𝐭 𝐚𝐧𝐲 𝐨𝐧𝐞 𝐨𝐟  𝐭𝐡𝐞𝐬𝐞 ??👇\n use Request Command <code>#request movie name </code>"""
     
     FONT_TXT= """<b>ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴍᴏᴅᴇ ᴛᴏ ᴄʜᴀɴɢᴇ ʏᴏᴜʀ ꜰᴏɴᴛs sᴛʏʟᴇ, ᴊᴜsᴛ sᴇɴᴅ ᴍᴇ ʟɪᴋᴇ ᴛʜɪs ꜰᴏʀᴍᴀᴛ
 
