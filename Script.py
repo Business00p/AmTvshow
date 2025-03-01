@@ -113,7 +113,9 @@ User - {}"""
 ⭐ Rating: {rating} / 10</b>
 """
 
-    FILE_CAPTION = """<b>{file_name}\n\n <blockquote> 𝖩𝗈𝗂𝗇➥ 「<a href="https://t.me/publicgood12">𝗧𝘃 𝘀𝗵𝗼𝘄 𝙊𝙧𝙞𝙜𝙞𝙣𝙖𝙡𝙨</a>」</blockquote> </b>""" 
+    FILE_CAPTION = """<b>📂 ғɪʟᴇ ɴᴀᴍᴇ : {file_name}
+    
+<b>📑 sɪᴢᴇ : {file_size} \n <blockquote> 𝖩𝗈𝗂𝗇➥ 「<a href="https://t.me/publicgood12">𝗧𝘃 𝘀𝗵𝗼𝘄 𝙊𝙧𝙞𝙜𝙞𝙣𝙖𝙡𝙨</a>」</blockquote> </b>""" 
     
 
     ALRT_TXT = """ᴊᴀʟᴅɪ ʏᴇʜᴀ sᴇ ʜᴀᴛᴏ !"""
