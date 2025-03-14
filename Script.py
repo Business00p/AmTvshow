@@ -1,6 +1,6 @@
 import os
 class script(object):
-    START_TXT = """<b>ʜᴇʏ {}, {}\n\n  ɪ'ᴍ ʏᴏᴜʀ ᴜʟᴛɪᴍᴀᴛᴇ ᴍᴏᴠɪᴇ ʙᴜᴅᴅʏ! \nʟᴇᴛ'ꜱ ꜰɪɴᴅ ʏᴏᴜʀ ꜰᴀᴠᴏʀɪᴛᴇ ᴍᴏᴠɪᴇ & ꜱᴇʀɪᴇꜱ ɪɴꜱᴛᴀɴᴛʟʏ ᴛᴏɢᴇᴛʜᴇʀ!! 🕵️\n<blockquote>🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/publicgood12">ᴛᴠ ꜱʜᴏᴡ</a></blockquote></b>"""
+    START_TXT = """<b>ʜᴇʏ {}, {}\n\n  ɪ'ᴍ ʏᴏᴜʀ ᴜʟᴛɪᴍᴀᴛᴇ ᴍᴏᴠɪᴇ ʙᴜᴅᴅʏ! \nʟᴇᴛ'ꜱ ꜰɪɴᴅ ʏᴏᴜʀ ꜰᴀᴠᴏʀɪᴛᴇ ᴍᴏᴠɪᴇ & ꜱᴇʀɪᴇꜱ ɪɴꜱᴛᴀɴᴛʟʏ ᴛᴏɢᴇᴛʜᴇʀ!! 🕵️\n<blockquote>🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/publictvshow">ᴛᴠ ꜱʜᴏᴡ</a></blockquote></b>"""
     
     HELP_TXT = """<b>ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..</b>"""
     
@@ -120,11 +120,11 @@ User - {}"""
 
     OLD_ALRT_TXT = """ʏᴏᴜ ᴀʀᴇ ᴜsɪɴɢ ᴍʏ ᴏʟᴅ ᴍᴇssᴀɢᴇs..sᴇɴᴅ ᴀ ɴᴇᴡ ʀᴇǫᴜᴇsᴛ.."""
 
-    NO_RESULT_TXT = """<b>ᴛʜɪs ᴍᴇssᴀɢᴇ ɪs ɴᴏᴛ ʀᴇʟᴇᴀsᴇᴅ ᴏʀ ᴀᴅᴅᴇᴅ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ 🤔 </b>"""
+    NO_RESULT_TXT = """<b>ᴛʜɪs ᴍᴇssᴀɢᴇ ɪs ɴᴏᴛ ʀᴇʟᴇᴀsᴇᴅ ᴏʀ ᴀᴅᴅᴇᴅ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ 🥺 </b>"""
     
     I_CUDNT = """👋 𝐻𝑒𝓁𝓁𝑜 {}
 
-𝑰 𝒄𝒐𝒖𝒍𝒅𝒏'𝒕 𝑭𝒊𝒏𝒅 𝒂𝒏𝒚 𝒎𝒐𝒗𝒊𝒆 𝒐𝒓 𝑺𝒆𝒓𝒊𝒆𝒔 𝒊𝒏 𝒕𝒉𝒂𝒕 𝒏𝒂𝒎𝒆 🥺 \n use Request Command <code>#request movie name </code>"""
+𝑰 𝒄𝒐𝒖𝒍𝒅𝒏'𝒕 𝑭𝒊𝒏𝒅 𝒂𝒏𝒚 𝒎𝒐𝒗𝒊𝒆 𝒐𝒓 𝑺𝒆𝒓𝒊𝒆𝒔 𝒊𝒏 𝒕𝒉𝒂𝒕 𝒏𝒂𝒎𝒆 🤔 \n use Request Command <code>#request movie name </code>"""
 
     I_CUD_NT = """👋 𝐻𝑒𝓁𝓁𝑜 {}
 
