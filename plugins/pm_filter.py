@@ -905,7 +905,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "verifyon":
         await query.answer(f'Only the bot admin can ᴏɴ ✓ or ᴏғғ ✗ this feature.', show_alert=True)
     
-    elif query.data == "features":
+    elif query.data == " features ":
         buttons = [[
               InlineKeyboardButton('Aᴅᴍɪɴ Cᴏᴍᴍᴀɴᴅs', callback_data='admincmd'),
               InlineKeyboardButton('Iᴍᴀɢᴇ Tᴏ Lɪɴᴋ', callback_data='telegraph'),
