@@ -39,7 +39,7 @@ class script(object):
 <blockquote>🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/TvShOw076'>Am</a></b></blockquote>"""
     
 
-    ABOUT_TEXT = """<blockquote><b>‣ ᴍʏ ɴᴀᴍᴇ : Tvshow Bots\n‣ ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/TvShOw076'>MR.Am</a>\n‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ5.2 [sᴛᴀʙʟᴇ]\n ►Thanks For Using Bots</b></blockquote>"""    
+    ABOUT_TEXT = """<blockquote><b>‣ ᴍʏ ɴᴀᴍᴇ : Tvshow Bots\n‣ ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/TvShOw076'>MR.Am</a>\n‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ5.2 [sᴛᴀʙʟᴇ]\n ►Thanks For Using Bots ❤️</b></blockquote>"""    
     
     SUPPORT_GRP_MOVIE_TEXT = '''<b>ʜᴇʏ {}
 
@@ -247,7 +247,7 @@ User - {}"""
 ⏰ ᴄᴜꜱᴛᴏᴍɪꜱᴇᴅ ᴅᴀʏꜱ
 💸 ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴅᴀʏꜱ ʏᴏᴜ ᴄʜᴏᴏꜱᴇ
 
-🏆 ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴀ ɴᴇᴡ ᴘʟᴀɴ ᴀᴘᴀʀᴛ ꜰʀᴏᴍ ᴛʜᴇ ɢɪᴠᴇɴ ᴘʟᴀɴ, ᴛʜᴇɴ ʏᴏᴜ ᴄᴀɴ ᴛᴀʟᴋ ᴛᴏ ᴏᴜʀ <a href='https://t.me/learningbots79'>ᴏᴡɴᴇʀ</a> ᴅɪʀᴇᴄᴛʟʏ ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴏɴ ᴛʜᴇ ᴄᴏɴᴛᴀᴄᴛ ʙᴜᴛᴛᴏɴ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ.
+🏆 ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴀ ɴᴇᴡ ᴘʟᴀɴ ᴀᴘᴀʀᴛ ꜰʀᴏᴍ ᴛʜᴇ ɢɪᴠᴇɴ ᴘʟᴀɴ, ᴛʜᴇɴ ʏᴏᴜ ᴄᴀɴ ᴛᴀʟᴋ ᴛᴏ ᴏᴜʀ <a href='https://t.me/TvShOw076'>ᴏᴡɴᴇʀ</a> ᴅɪʀᴇᴄᴛʟʏ ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴏɴ ᴛʜᴇ ᴄᴏɴᴛᴀᴄᴛ ʙᴜᴛᴛᴏɴ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ.
     
 👨‍💻 ᴄᴏɴᴛᴀᴄᴛ ᴛʜᴇ ᴏᴡɴᴇʀ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴏᴛʜᴇʀ ᴘʟᴀɴ.
 
@@ -338,13 +338,11 @@ User - {}"""
 Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ ᴀɴᴅ ᴜsᴇ ᴀʟʟ ғᴇᴀᴛᴜʀᴇs😇</b>"""
 
     SOURCE_TXT = """<b>
-📢 ADS PLACEMENT
+📢 ᴀᴅꜱ ᴘʟᴀᴄᴇᴍᴇɴᴛ 
 
-🌿 REACH A WIDE AUDIENCE AT A MINIMAL COST WITH IMPRESSION-BASED ADS, THAT MEANS YOU ONLY PAY FOR THE TIMES YOUR AD IS ACTUALLY SEEN!
+ʀᴇᴀᴄʜ ᴀ ᴡɪᴅᴇ ᴀᴜᴅɪᴇɴᴄᴇ ᴀᴛ ᴀ ᴍɪɴɪᴍᴀʟ ᴄᴏꜱᴛ ᴡɪᴛʜ ɪᴍᴘʀᴇꜱꜱɪᴏɴ-ʙᴀꜱᴇᴅ ᴀᴅꜱ, ᴛʜᴀᴛ ᴍᴇᴀɴꜱ ʏᴏᴜ ᴏɴʟʏ ᴘᴀʏ ꜰᴏʀ ᴛʜᴇ ᴛɪᴍᴇꜱ ʏᴏᴜʀ ᴀᴅ ɪꜱ ᴀᴄᴛᴜᴀʟʟʏ ꜱᴇᴇɴ! \n >>> ᴛᴏ ᴘʟᴀᴄᴇ ʏᴏᴜʀ ᴀᴅꜱ ᴄᴏɴᴛᴀᴄᴛ !!
 
->>> TO PLACE YOUR ADS CONTACT !!
-
-developer : Mr.Am
+<blockquote> developer : <a href='https://t.me/TvShOw076'> Mr.Am</a> </blockquote>
 </b>""" 
     GROUP_C_TEXT = """<b><blockquote>
  --------------Set Verify-------------
