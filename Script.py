@@ -39,7 +39,7 @@ class script(object):
 <blockquote>🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/TvShOw076'>Am</a></b></blockquote>"""
     
 
-    ABOUT_TEXT = """<blockquote><b>‣ ᴍʏ ɴᴀᴍᴇ : Tvshow Bots\n‣ ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/TvShOw076'>MR.Am</a>\n‣ ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ\n‣ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ\n‣ ᴅᴀᴛᴀ ʙᴀsᴇ : ᴍᴏɴɢᴏ ᴅʙ\n‣ ʜᴏsᴛᴇᴅ ᴏɴ  : ᴀʟʟ ᴡᴇʙ\n‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ5.2 [sᴛᴀʙʟᴇ]</b></blockquote>"""    
+    ABOUT_TEXT = """<blockquote><b>‣ ᴍʏ ɴᴀᴍᴇ : Tvshow Bots\n‣ ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/TvShOw076'>MR.Am</a>\n‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ5.2 [sᴛᴀʙʟᴇ]\n ►Thanks For Using Bots</b></blockquote>"""    
     
     SUPPORT_GRP_MOVIE_TEXT = '''<b>ʜᴇʏ {}
 
@@ -338,8 +338,11 @@ User - {}"""
 Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ ᴀɴᴅ ᴜsᴇ ᴀʟʟ ғᴇᴀᴛᴜʀᴇs😇</b>"""
 
     SOURCE_TXT = """<b>
-NOTE:
-- Create Your Bot ◉› :<blockquote><a href="https://t.me/TvShOw076">𝗙𝗶𝗹𝘁𝗲𝗿-𝗕𝗼𝘁</a></blockquote>
+📢 ADS PLACEMENT
+
+🌿 REACH A WIDE AUDIENCE AT A MINIMAL COST WITH IMPRESSION-BASED ADS, THAT MEANS YOU ONLY PAY FOR THE TIMES YOUR AD IS ACTUALLY SEEN!
+
+>>> TO PLACE YOUR ADS CONTACT !!
 
 developer : Mr.Am
 </b>""" 
