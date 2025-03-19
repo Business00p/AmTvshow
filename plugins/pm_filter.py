@@ -921,9 +921,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_media(
             media=InputMediaPhoto(
             media=START_IMG,
-            caption=script.HELP_TXT,
-            parse_mode=enums.ParseMode.HTML 
-            ),
+            caption=script.HELP_TXT,parse_mode=enums.ParseMode.HTML),
             reply_markup=reply_markup
 	)
       #  await query.message.edit_text(
