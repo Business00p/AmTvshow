@@ -813,7 +813,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
                 InlineKeyboardButton('☆ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ☆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
                 ],[
-                InlineKeyboardButton("Hᴇʟᴘ ⚙️", callback_data='features'),
+                InlineKeyboardButton("Hᴇʟᴘ ⚙️", callback_data='earn'),
                 InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data=f'about')
                 ],[
                 InlineKeyboardButton('Pʀᴇᴍɪᴜᴍ 🎫', callback_data='seeplans'),
@@ -921,7 +921,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_media(
             media=InputMediaPhoto(
             media=START_IMG,
-            caption=script.HELP_TXT,parse_mode=enums.ParseMode.HTML),
+            caption=script.HELP_TXT,
+	    parse_mode=enums.ParseMode.HTML
+	    ),
             reply_markup=reply_markup
 	)
       #  await query.message.edit_text(
@@ -1037,7 +1039,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
           message_id=query.message.id,
           media=InputMediaAnimation(
             media="https://cdn.jsdelivr.net/gh/Jisshubot/JISSHU_BOTS/Video.mp4/Group_20240921_202540_0001.gif",
-            caption=script.GROUP_TEXT.format(temp.B_LINK),
+            caption=script.HELP_TXT.format(temp.B_LINK),
             parse_mode=enums.ParseMode.HTML
         ),
         reply_markup=reply_markup
