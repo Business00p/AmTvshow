@@ -832,7 +832,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         btn = [[
             InlineKeyboardButton('🍁 𝗖𝗹𝗶𝗰𝗸 𝗔𝗹𝗹 𝗣𝗹𝗮𝗻𝘀 & 𝗣𝗿𝗶𝗰𝗲𝘀 🍁', callback_data='free')
         ],[ 
-	    InlineKeyboardButton('Rᴇғᴇʀ ⚜️', callback_data="reffff"),
+	    InlineKeyboardButton('𝐑𝐄𝐅𝐄𝐑 ⚜️', callback_data="reffff"),
             InlineKeyboardButton('• 𝗖𝗹𝗼𝘀𝗲 •', callback_data='close_data')
 	    
 	]]
@@ -870,7 +870,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
        buttons = [[
             InlineKeyboardButton('🍁 𝗖𝗹𝗶𝗰𝗸 𝗔𝗹𝗹 𝗣𝗹𝗮𝗻𝘀 & 𝗣𝗿𝗶𝗰𝗲𝘀 🍁', callback_data='free')
         ],[ 
-	    InlineKeyboardButton('Rᴇғᴇʀ ⚜️', callback_data="reffff"),
+	    InlineKeyboardButton('𝐑𝐄𝐅𝐄𝐑 ⚜️', callback_data="reffff"),
             InlineKeyboardButton('• 𝗖𝗹𝗼𝘀𝗲 •', callback_data='close_data')
        ]]
        reply_markup = InlineKeyboardMarkup(buttons)
@@ -910,11 +910,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "features":
         buttons = [[
-              InlineKeyboardButton('🔧 Aᴅᴍɪɴ Cᴏᴍᴍᴀɴᴅs', callback_data='admincmd'),
-              InlineKeyboardButton('Iᴍᴀɢᴇ Tᴏ Lɪɴᴋ', callback_data='telegraph'),
+              InlineKeyboardButton('🔧 Aᴅᴍɪɴ Cᴍᴅ', callback_data='admincmd'),
+              InlineKeyboardButton('🔗 Iᴍᴀɢᴇ Tᴏ Lɪɴᴋ', callback_data='telegraph'),
 	],[
               InlineKeyboardButton('🔐 F-Sᴜʙ', callback_data='fsub'),
-              InlineKeyboardButton('Gʀᴏᴜᴘ Sᴇᴛᴜᴘ', callback_data='earn')
+              InlineKeyboardButton('🆎 Font', callback_data='font')
 	],[
               InlineKeyboardButton('⋞ Back To Home', callback_data='start')
 	]]
@@ -991,7 +991,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 			InlineKeyboardButton('⚠️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ', callback_data='disclaimer'),
 		        InlineKeyboardButton('📩 ᴘʀᴏᴍᴛɪᴏɴ', callback_data='Source')
                 ],[
-                        InlineKeyboardButton('𝚁𝚎𝚙𝚘𝚛𝚝 𝙱𝚞𝚐𝚜 & 𝙵𝚎𝚎𝚍𝙱𝚊𝚌𝙺',url=f'https://t.me/TvshowChat')
+                        InlineKeyboardButton('𝚁𝚎𝚙𝚘𝚛𝚝 𝙱𝚞𝚐𝚜 & 𝙵𝚎𝚎𝚍𝙱𝚊𝚌𝙺',url=f'https://t.me/TvShOw076')
 		],[
 			InlineKeyboardButton('⋞ ʜᴏᴍᴇ', callback_data='start')]]
                 ),
@@ -1002,7 +1002,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
  
     elif query.data == "Source":
         buttons = [[
-            InlineKeyboardButton('📲 ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴏᴡɴᴇʀ', url='https://t.me/TvshowChat')
+            InlineKeyboardButton('📲 ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴏᴡɴᴇʀ', url='https://t.me/TvShOw076')
         ],[
             InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='about'),
             InlineKeyboardButton('• ᴄʟᴏsᴇ •', callback_data='close_data')
@@ -1057,7 +1057,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "font":
         buttons = [[
-            InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='features')
+	    InlineKeyboardButton('Gʀᴏᴜᴘ Sᴇᴛᴜᴘ', callback_data='earn'),
+            InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='features')	
         ]]
         reply_markup = InlineKeyboardMarkup(buttons) 
         await query.message.edit_text(
