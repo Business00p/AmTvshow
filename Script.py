@@ -201,7 +201,7 @@ User - {}"""
 #verified_{}_completed"""
 
 
-    MOVIES_UPDATE_TXT = """<b>#𝑵𝒆𝒘_𝑭𝒊𝒍𝒆_𝑨𝒅𝒅𝒆𝒅 ✅
+    MOVIES_UPDATE_TXT = """<b>#Tvshow_𝑵𝒆𝒘_𝑭𝒊𝒍𝒆_𝑨𝒅𝒅𝒆𝒅 ✅
 **🍿 Title:** {title}
 **🎃 Genres:** {genres}
 **📆 Year:** {year}
