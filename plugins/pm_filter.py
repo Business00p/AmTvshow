@@ -803,7 +803,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer("ɴᴏ ᴍᴏʀᴇ ᴘᴀɢᴇs 😊", show_alert=True)
 
     elif query.data == "pages":
-        await query.answer("ᴛʜɪs ɪs ᴘᴀɢᴇs ʙᴜᴛᴛᴏɴ 😅")
+        await query.answer("ɴᴏ ᴍᴏʀᴇ ᴘᴀɢᴇs 😅")
 
     elif query.data.startswith("lang_art"):
         _, lang = query.data.split("#")
