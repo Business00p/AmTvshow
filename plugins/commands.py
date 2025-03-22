@@ -182,6 +182,8 @@ async def start(client:Client, message):
                         ],[
                             InlineKeyboardButton('Pʀᴇᴍɪᴜᴍ 🎫', callback_data='seeplans'),
                             InlineKeyboardButton('▶𝚈𝚘𝚞𝚝𝚞𝚋𝚎', url=f'https://youtube.com/@techbro-kd8yk')
+                        ],[
+                            InlineKeyboardButton('🌿 Bᴏᴛ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ', url=f'https://t.me/foraub')       
                         ]] 
                         reply_markup = InlineKeyboardMarkup(buttons)
                         m=await message.reply_sticker("CAACAgUAAxkBAAIehme3G3vGWd3qPLNNhsWGN8Bq_A0_AAJrFQACrG95VaIaQqsKmaMeHgQ") 
@@ -208,7 +210,9 @@ async def start(client:Client, message):
                         ],[
                             InlineKeyboardButton('Pʀᴇᴍɪᴜᴍ 🎫', callback_data='seeplans'),
                             InlineKeyboardButton('▶𝚈𝚘𝚞𝚝𝚞𝚋𝚎', url=f'https://youtube.com/@techbro-kd8yk')
-                        ]] 
+                        ],[
+                            InlineKeyboardButton('🌿 Bᴏᴛ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ', url=f'https://t.me/foraub')
+                  ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgUAAxkBAAIehme3G3vGWd3qPLNNhsWGN8Bq_A0_AAJrFQACrG95VaIaQqsKmaMeHgQ") 
         await asyncio.sleep(1)
@@ -267,7 +271,9 @@ async def start(client:Client, message):
                         ],[
                             InlineKeyboardButton('Pʀᴇᴍɪᴜᴍ 🎫', callback_data='seeplans'),
                             InlineKeyboardButton('▶𝚈𝚘𝚞𝚝𝚞𝚋𝚎', url=f'https://youtube.com/@techbro-kd8yk')
-                        ]] 
+                        ],[
+                            InlineKeyboardButton('🌿 Bᴏᴛ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ', url=f'https://t.me/foraub')
+                  ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         return await message.reply_photo(photo=START_IMG, caption=script.START_TXT.format(message.from_user.mention, get_status(), message.from_user.id),
             reply_markup=reply_markup,
