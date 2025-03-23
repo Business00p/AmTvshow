@@ -813,7 +813,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
                 InlineKeyboardButton('☆ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ☆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
                 ],[
-                InlineKeyboardButton("Hᴇʟᴘ ⚙️", callback_data='features'),
+                InlineKeyboardButton("Fᴇᴀᴛᴜʀᴇ ⚙️", callback_data='features'),
                 InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data=f'about')
                 ],[
                 InlineKeyboardButton('Pʀᴇᴍɪᴜᴍ 🎫', callback_data='seeplans'),
@@ -935,7 +935,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "admincmd":
     # If the user isn't an admin, return
       if query.from_user.id not in ADMINS:
-        return await query.answer('ᴛʜɪꜱ ɪꜱ ɴᴏᴛ ꜰᴏʀ ʏᴏᴜ ʙʀᴏ!', show_alert=True)
+        return await query.answer('Tʜɪꜱ Fᴇᴀᴛᴜʀᴇ Iꜱ Oɴʟʏ Fᴏʀ </> Aᴅᴍɪɴꜱ!', show_alert=True)
     
       buttons = [[
 	      InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='start'),
