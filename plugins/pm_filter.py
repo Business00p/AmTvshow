@@ -837,7 +837,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data=f'about')
                 ],[
                 InlineKeyboardButton('Pʀᴇᴍɪᴜᴍ 🎫', callback_data='seeplans'),
-                InlineKeyboardButton('▶𝚈𝚘𝚞𝚝𝚞𝚋𝚎', url=f'https://youtube.com/@techbro-kd8yk')
+                InlineKeyboardButton('▶Yᴏᴜᴛᴜʙᴇ', url=f'https://youtube.com/@techbro-kd8yk')
                 ],[
 		InlineKeyboardButton('🌿 Bᴏᴛ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ', url=f'https://t.me/foraub')  
 	       ]] 
@@ -1007,8 +1007,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             script.ABOUT_TEXT.format(query.from_user.mention(),temp.B_LINK),
             reply_markup = InlineKeyboardMarkup(
                 [[
-			InlineKeyboardButton('⚠️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ', callback_data='disclaimer'),
-		        InlineKeyboardButton('📩 ᴘʀᴏᴍᴛɪᴏɴ', callback_data='Source')
+			InlineKeyboardButton('⚠️ Dɪꜱᴄʟᴀɪᴍᴇʀ', callback_data='disclaimer'),
+		        InlineKeyboardButton('📩 Pʀᴏᴍᴛɪᴏɴ', callback_data='Source')
                 ],[
                         InlineKeyboardButton('𝚁𝚎𝚙𝚘𝚛𝚝 𝙱𝚞𝚐𝚜 & 𝙵𝚎𝚎𝚍𝙱𝚊𝚌𝙺',url=f'https://t.me/TvShOw076')
 		],[
