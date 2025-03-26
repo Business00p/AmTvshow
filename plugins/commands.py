@@ -181,7 +181,7 @@ async def start(client:Client, message):
                             InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data=f'about')
                         ],[
                             InlineKeyboardButton('Pʀᴇᴍɪᴜᴍ 🎫', callback_data='seeplans'),
-                            InlineKeyboardButton('▶𝚈𝚘𝚞𝚝𝚞𝚋𝚎', url=f'https://youtube.com/@techbro-kd8yk')
+                            InlineKeyboardButton('▶Yᴏᴜᴛᴜʙᴇ', url=f'https://youtube.com/@techbro-kd8yk')
                         ],[
                             InlineKeyboardButton('🌿 Bᴏᴛ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ', url=f'https://t.me/foraub')       
                         ]] 
@@ -209,7 +209,7 @@ async def start(client:Client, message):
                             InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data=f'about')
                         ],[
                             InlineKeyboardButton('Pʀᴇᴍɪᴜᴍ 🎫', callback_data='seeplans'),
-                            InlineKeyboardButton('▶𝚈𝚘𝚞𝚝𝚞𝚋𝚎', url=f'https://youtube.com/@techbro-kd8yk')
+                            InlineKeyboardButton('▶Yᴏᴜᴛᴜʙᴇ', url=f'https://youtube.com/@techbro-kd8yk')
                         ],[
                             InlineKeyboardButton('🌿 Bᴏᴛ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ', url=f'https://t.me/foraub')
                   ]] 
@@ -270,7 +270,7 @@ async def start(client:Client, message):
                             InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data=f'about')
                         ],[
                             InlineKeyboardButton('Pʀᴇᴍɪᴜᴍ 🎫', callback_data='seeplans'),
-                            InlineKeyboardButton('▶𝚈𝚘𝚞𝚝𝚞𝚋𝚎', url=f'https://youtube.com/@techbro-kd8yk')
+                            InlineKeyboardButton('▶Yᴏᴜᴛᴜʙᴇ', url=f'https://youtube.com/@techbro-kd8yk')
                         ],[
                             InlineKeyboardButton('🌿 Bᴏᴛ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ', url=f'https://t.me/foraub')
                   ]]
