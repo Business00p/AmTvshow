@@ -894,7 +894,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
        reply_markup = InlineKeyboardMarkup(buttons)
   
        await query.message.edit_media(
-         media=InputMediaPhoto((random.choice(PAYPICS))
+         media=InputMediaPhoto(
             media=SUBSCRIPTION, 
             caption=script.PREPLANSS_TXT.format(query.from_user.mention()),
             parse_mode=enums.ParseMode.HTML
