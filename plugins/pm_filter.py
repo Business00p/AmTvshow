@@ -888,14 +888,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "broze":
        buttons = [[
             InlineKeyboardButton('🎖️ 𝗖𝘂𝘀𝘁𝗼𝗺 𝗣𝗹𝗮𝗻 🎖️', callback_data='other')
-        ],[
+        ], [
             InlineKeyboardButton('• 𝗖𝗹𝗼𝘀𝗲 •', callback_data='close_data')
        ]]
        reply_markup = InlineKeyboardMarkup(buttons)
   
        await query.message.edit_media(
          media=InputMediaPhoto(
-            media=SUBSCRIPTION, 
+            media=SUBSCRIPTION,
             caption=script.PREPLANSS_TXT.format(query.from_user.mention()),
             parse_mode=enums.ParseMode.HTML
          ),
