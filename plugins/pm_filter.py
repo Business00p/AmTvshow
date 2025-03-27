@@ -856,6 +856,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 	    
 	]]
         reply_markup = InlineKeyboardMarkup(btn)
+        m=await query.message.reply_sticker("CAACAgUAAxkBAAIehme3G3vGWd3qPLNNhsWGN8Bq_A0_AAJrFQACrG95VaIaQqsKmaMeHgQ") 
         await m.delete()
         await query.message.reply_photo(
             photo=(SUBSCRIPTION),
