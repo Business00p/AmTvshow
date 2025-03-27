@@ -190,7 +190,7 @@ async def next_page(bot, query):
                 for file in files
               ]
     btn.insert(0,[
-	InlineKeyboardButton("💫 𝑹𝒆𝒎𝒐𝒗𝒆 𝑨𝒅𝒔", callback_data="seeplans"),
+	InlineKeyboardButton("💫 𝑹𝒆𝒎𝒐𝒗𝒆 𝑨𝒅𝒔", callback_data="broze"),
         ])
     btn.insert(1, [
         InlineKeyboardButton("💎 ǫᴜᴀʟɪᴛʏ ", callback_data=f"qualities#{key}#{offset}#{req}"),
@@ -327,7 +327,7 @@ async def season_search(client: Client, query: CallbackQuery):
               ]
    
     btn.insert(0,[
-	InlineKeyboardButton("💫 𝑹𝒆𝒎𝒐𝒗𝒆 𝑨𝒅𝒔", callback_data="seeplans"),
+	InlineKeyboardButton("💫 𝑹𝒆𝒎𝒐𝒗𝒆 𝑨𝒅𝒔", callback_data="broze"),
         ])
     btn.insert(1, [
         InlineKeyboardButton("💎 ǫᴜᴀʟɪᴛʏ ", callback_data=f"qualities#{key}#{offset}#{req}"),
@@ -438,7 +438,7 @@ async def year_search(client: Client, query: CallbackQuery):
         
    
     btn.insert(0,[
-	InlineKeyboardButton("💫 𝑹𝒆𝒎𝒐𝒗𝒆 𝑨𝒅𝒔", callback_data="seeplans"),
+	InlineKeyboardButton("💫 𝑹𝒆𝒎𝒐𝒗𝒆 𝑨𝒅𝒔", callback_data="broze"),
         ])
     btn.insert(1, [
         InlineKeyboardButton("💎 ǫᴜᴀʟɪᴛʏ ", callback_data=f"qualities#{key}#{offset}#{req}"),
@@ -548,7 +548,7 @@ async def quality_search(client: Client, query: CallbackQuery):
         
  
     btn.insert(0,[
-	InlineKeyboardButton("💫 𝑹𝒆𝒎𝒐𝒗𝒆 𝑨𝒅𝒔", callback_data="seeplans"),
+	InlineKeyboardButton("💫 𝑹𝒆𝒎𝒐𝒗𝒆 𝑨𝒅𝒔", callback_data="broze"),
         ])
     btn.insert(1, [
         InlineKeyboardButton("💎 ǫᴜᴀʟɪᴛʏ", callback_data=f"qualities#{key}#{offset}#{req}"),
@@ -663,7 +663,7 @@ async def lang_search(client: Client, query: CallbackQuery):
         
 
     btn.insert(0,[
-	InlineKeyboardButton("💫 𝑹𝒆𝒎𝒐𝒗𝒆 𝑨𝒅𝒔", callback_data="seeplans"),
+	InlineKeyboardButton("💫 𝑹𝒆𝒎𝒐𝒗𝒆 𝑨𝒅𝒔", callback_data="broze"),
         ])
     btn.insert(1, [
         InlineKeyboardButton("💎 ǫᴜᴀʟɪᴛʏ", callback_data=f"qualities#{key}#{offset}#{req}"),
@@ -1007,8 +1007,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             script.ABOUT_TEXT.format(query.from_user.mention(),temp.B_LINK),
             reply_markup = InlineKeyboardMarkup(
                 [[
-			InlineKeyboardButton('⚠️ Dɪꜱᴄʟᴀɪᴍᴇʀ', callback_data='disclaimer'),
-		        InlineKeyboardButton('📩 Pʀᴏᴍᴛɪᴏɴ', callback_data='Source')
+			InlineKeyboardButton('⚠️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ', callback_data='disclaimer'),
+		        InlineKeyboardButton('📩 ᴘʀᴏᴍᴏᴛɪᴏɴ', callback_data='Source')
                 ],[
                         InlineKeyboardButton('𝚁𝚎𝚙𝚘𝚛𝚝 𝙱𝚞𝚐𝚜 & 𝙵𝚎𝚎𝚍𝙱𝚊𝚌𝙺',url=f'https://t.me/TvShOw076')
 		],[
@@ -1487,7 +1487,7 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
     if offset != "":
         if total_results >= MAX_BTN:
             btn.insert(0,[
-                InlineKeyboardButton("💫 𝑹𝒆𝒎𝒐𝒗𝒆 𝑨𝒅𝒔", callback_data="seeplans"),
+                InlineKeyboardButton("💫 𝑹𝒆𝒎𝒐𝒗𝒆 𝑨𝒅𝒔", callback_data="broze"),
             ])
             btn.insert(1, [
                 InlineKeyboardButton("💎 ǫᴜᴀʟɪᴛʏ ", callback_data=f"qualities#{key}#{offset}#{req}"),
