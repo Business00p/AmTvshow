@@ -856,16 +856,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
 	    
 	]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await client.edit_message_media(
-            query.message.chat.id, 
-            query.message.id, 
-            InputMediaPhoto(random.choice(PAYPICS))
-        )
-        await query.message.edit_text(
-            text=script.OTHER_TXT.format(query.from_user.mention),
-            reply_markup=reply_markup,
+    
+      await client.edit_message_media(
+          chat_id=query.message.chat.id,
+          message_id=query.message.id,
+          media=InputMediaAnimation(
+            media="https://cdn.jsdelivr.net/gh/Jisshubot/JISSHU_BOTS/Video.mp4/Welcome_video_20240921_184741_0001.gif",
+            caption=script.PREPLANS_TXT,
             parse_mode=enums.ParseMode.HTML
-	)	
+          ),
+          reply_markup=reply_markup
+      )	
     elif query.data == "free":
         buttons = [[
             InlineKeyboardButton('☆📸 𝙎𝙚𝙣𝙙 𝙨𝙘𝙧𝙚𝙚𝙣𝙨𝙝𝙤𝙩 📸☆', url=f'https://t.me/TvShOw076')
