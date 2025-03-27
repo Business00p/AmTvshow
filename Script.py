@@ -1,6 +1,6 @@
 import os
 class script(object):
-    START_TXT = """<b>ʜᴇʏ {}, {}\n\n  ɪ'ᴍ ʏᴏᴜʀ ᴜʟᴛɪᴍᴀᴛᴇ ᴍᴏᴠɪᴇ ʙᴜᴅᴅʏ! \nʟᴇᴛ'ꜱ ꜰɪɴᴅ ʏᴏᴜʀ ꜰᴀᴠᴏʀɪᴛᴇ ᴍᴏᴠɪᴇ & ꜱᴇʀɪᴇꜱ ɪɴꜱᴛᴀɴᴛʟʏ ᴛᴏɢᴇᴛʜᴇʀ!! 🕵️\n<blockquote>🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/publictvshow">ᴛᴠ ꜱʜᴏᴡ</a></blockquote></b>"""
+    START_TXT = """<b>ʜᴇʏ {}, {}\n\n  ɪ'ᴍ ʏᴏᴜʀ ᴜʟᴛɪᴍᴀᴛᴇ ᴍᴏᴠɪᴇ ʙᴜᴅᴅʏ! \nʟᴇᴛ'ꜱ ꜰɪɴᴅ ʏᴏᴜʀ ꜰᴀᴠᴏʀɪᴛᴇ ᴍᴏᴠɪᴇ & ꜱᴇʀɪᴇꜱ ɪɴꜱᴛᴀɴᴛʟʏ ᴛᴏɢᴇᴛʜᴇʀ!! 🕵️\n<blockquote>🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/publictvshow">Tᴠ Sʜᴏᴡ</a></blockquote></b>"""
     
     HELP_TXT = """<b>ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..</b>"""
     
@@ -113,7 +113,7 @@ User - {}"""
 ⭐ Rating: {rating} / 10</b>
 """
 
-    FILE_CAPTION = """<b>📂File Name: {file_name} \n📑sɪᴢᴇ : {file_size} \n 𝖩𝗈𝗂𝗇➥ 「<a href="https://t.me/publictvshow">𝗧𝘃 𝘀𝗵𝗼𝘄 </a></b>""" 
+    FILE_CAPTION = """<b>📂FileName: {file_name} \n📑sɪᴢᴇ: {file_size} \n 𝖩𝗈𝗂𝗇➥ 「<a href="https://t.me/publictvshow">𝗧𝘃 𝘀𝗵𝗼𝘄 </a></b>""" 
     
 
     ALRT_TXT = """ᴊᴀʟᴅɪ ʏᴇʜᴀ sᴇ ʜᴀᴛᴏ !"""
@@ -214,6 +214,7 @@ User - {}"""
 
 2 ʀᴜᴘᴇᴇ ᴘᴇʀ ᴅᴀʏ 👻
 40 ʀᴜᴘᴇᴇs ғᴏʀ ᴏɴᴇ ᴍᴏɴᴛʜ 😚
+70 ʀᴜᴘᴇᴇs ғᴏʀ Two ᴍᴏɴᴛʜ ✨
 
 <blockquote>🎁 ᴘʀᴇᴍɪᴜᴍ ғᴇᴀᴛᴜʀᴇ ʙᴇɴɪꜰɪᴛꜱ:</blockquote>
 
@@ -237,6 +238,12 @@ User - {}"""
 </b>"""    
 
     PREPLANSS_TXT = """<b>👋 ʜᴇʏ {}
+
+<blockquote>🎖️ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴꜱ :</blockquote>
+
+2 ʀᴜᴘᴇᴇ ᴘᴇʀ ᴅᴀʏ 👻
+40 ʀᴜᴘᴇᴇs ғᴏʀ ᴏɴᴇ ᴍᴏɴᴛʜ 😚
+70 ʀᴜᴘᴇᴇs ғᴏʀ Two ᴍᴏɴᴛʜ ✨
     
 <blockquote>🎁 ᴘʀᴇᴍɪᴜᴍ ғᴇᴀᴛᴜʀᴇ ʙᴇɴɪꜰɪᴛꜱ:</blockquote>
 
@@ -249,6 +256,8 @@ User - {}"""
 ❏ ꜰᴜʟʟ ᴀᴅᴍɪɴ sᴜᴘᴘᴏʀᴛ                              
 ❏ ʀᴇǫᴜᴇsᴛ ᴡɪʟʟ ʙᴇ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ɪɴ 𝟷ʜ [ ɪꜰ ᴀᴠᴀɪʟᴀʙʟᴇ ]
 
+ <code>8513991436@naviaxis</code> [ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ]
+ 
 ⛽️ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ: /myplan
 </b>"""
 
