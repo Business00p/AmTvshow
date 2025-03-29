@@ -14,6 +14,7 @@ from database.ia_filterdb import Media, get_search_results, get_bad_files, get_f
 import random
 lock = asyncio.Lock()
 from .Extra.checkFsub import is_user_fsub
+from .Extra.premium import plan
 import traceback
 from fuzzywuzzy import process
 BUTTONS = {}
@@ -190,7 +191,7 @@ async def next_page(bot, query):
                 for file in files
               ]
     btn.insert(0,[
-	InlineKeyboardButton("💫 𝑹𝒆𝒎𝒐𝒗𝒆 𝑨𝒅𝒔", callback_data="mostlist"),
+	InlineKeyboardButton("💫 𝑹𝒆𝒎𝒐𝒗𝒆 𝑨𝒅𝒔", callback_data="plan"),
         ])
     btn.insert(1, [
         InlineKeyboardButton("💎 ǫᴜᴀʟɪᴛʏ ", callback_data=f"qualities#{key}#{offset}#{req}"),
@@ -327,7 +328,7 @@ async def season_search(client: Client, query: CallbackQuery):
               ]
    
     btn.insert(0,[
-	InlineKeyboardButton("💫 𝑹𝒆𝒎𝒐𝒗𝒆 𝑨𝒅𝒔", callback_data="mostlist"),
+	InlineKeyboardButton("💫 𝑹𝒆𝒎𝒐𝒗𝒆 𝑨𝒅𝒔", callback_data="plan"),
         ])
     btn.insert(1, [
         InlineKeyboardButton("💎 ǫᴜᴀʟɪᴛʏ ", callback_data=f"qualities#{key}#{offset}#{req}"),
@@ -438,7 +439,7 @@ async def year_search(client: Client, query: CallbackQuery):
         
    
     btn.insert(0,[
-	InlineKeyboardButton("💫 𝑹𝒆𝒎𝒐𝒗𝒆 𝑨𝒅𝒔", callback_data="mostlist"),
+	InlineKeyboardButton("💫 𝑹𝒆𝒎𝒐𝒗𝒆 𝑨𝒅𝒔", callback_data="plan"),
         ])
     btn.insert(1, [
         InlineKeyboardButton("💎 ǫᴜᴀʟɪᴛʏ ", callback_data=f"qualities#{key}#{offset}#{req}"),
@@ -548,7 +549,7 @@ async def quality_search(client: Client, query: CallbackQuery):
         
  
     btn.insert(0,[
-	InlineKeyboardButton("💫 𝑹𝒆𝒎𝒐𝒗𝒆 𝑨𝒅𝒔", callback_data="mostlist"),
+	InlineKeyboardButton("💫 𝑹𝒆𝒎𝒐𝒗𝒆 𝑨𝒅𝒔", callback_data="plan"),
         ])
     btn.insert(1, [
         InlineKeyboardButton("💎 ǫᴜᴀʟɪᴛʏ", callback_data=f"qualities#{key}#{offset}#{req}"),
@@ -663,7 +664,7 @@ async def lang_search(client: Client, query: CallbackQuery):
         
 
     btn.insert(0,[
-	InlineKeyboardButton("💫 𝑹𝒆𝒎𝒐𝒗𝒆 𝑨𝒅𝒔", callback_data="mostlist"),
+	InlineKeyboardButton("💫 𝑹𝒆𝒎𝒐𝒗𝒆 𝑨𝒅𝒔", callback_data="plan"),
         ])
     btn.insert(1, [
         InlineKeyboardButton("💎 ǫᴜᴀʟɪᴛʏ", callback_data=f"qualities#{key}#{offset}#{req}"),
@@ -1486,7 +1487,7 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
     if offset != "":
         if total_results >= MAX_BTN:
             btn.insert(0,[
-                InlineKeyboardButton("💫 𝑹𝒆𝒎𝒐𝒗𝒆 𝑨𝒅𝒔", callback_data="mostlist"),
+                InlineKeyboardButton("💫 𝑹𝒆𝒎𝒐𝒗𝒆 𝑨𝒅𝒔", callback_data="plan"),
             ])
             btn.insert(1, [
                 InlineKeyboardButton("💎 ǫᴜᴀʟɪᴛʏ ", callback_data=f"qualities#{key}#{offset}#{req}"),
