@@ -163,11 +163,15 @@ async def plan(client, message):
     ]]
     await message.reply_photo(photo="https://graph.org/file/55a5392f88ec5a4bd3379.jpg", caption=script.PREPLANS_TXT.format(message.from_user.mention), reply_markup=InlineKeyboardMarkup(btn))
     
-@Client.on_callback_query()
-async def callback_handler(client, callback_query):
-    data = callback_query.data
-    if data == "free":
-        await callback_query.message.edit_text("Here are the available plans and prices...")
-    elif data == "close_data":
-        await callback_query.message.delete()
-	    
+@Client.on_message(filters.command("plan"))
+async def plan(client, message):
+    btn = InlineKeyboardMarkup([
+        [InlineKeyboardButton("🍁 Click All Plans & Prices 🍁", callback_data='free')],
+        [InlineKeyboardButton("❌ Close ❌", callback_data="close_data")]
+    ])
+    
+    await message.reply_photo(
+        photo="https://graph.org/file/55a5392f88ec5a4bd3379.jpg",
+        caption=script.PREPLANS_TXT.format(message.from_user.mention),
+        reply_markup=btn
+    )
