@@ -14,7 +14,6 @@ from database.ia_filterdb import Media, get_search_results, get_bad_files, get_f
 import random
 lock = asyncio.Lock()
 from .Extra.checkFsub import is_user_fsub
-from .Extra.premium import plan
 import traceback
 from fuzzywuzzy import process
 BUTTONS = {}
@@ -191,7 +190,7 @@ async def next_page(bot, query):
                 for file in files
               ]
     btn.insert(0,[
-	InlineKeyboardButton("💫 𝑹𝒆𝒎𝒐𝒗𝒆 𝑨𝒅𝒔", callback_data="/plan"),
+	InlineKeyboardButton("💫 𝑹𝒆𝒎𝒐𝒗𝒆 𝑨𝒅𝒔", callback_data="free"),
         ])
     btn.insert(1, [
         InlineKeyboardButton("💎 ǫᴜᴀʟɪᴛʏ ", callback_data=f"qualities#{key}#{offset}#{req}"),
@@ -328,7 +327,7 @@ async def season_search(client: Client, query: CallbackQuery):
               ]
    
     btn.insert(0,[
-	InlineKeyboardButton("💫 𝑹𝒆𝒎𝒐𝒗𝒆 𝑨𝒅𝒔", callback_data="/plan"),
+	InlineKeyboardButton("💫 𝑹𝒆𝒎𝒐𝒗𝒆 𝑨𝒅𝒔", callback_data="free"),
         ])
     btn.insert(1, [
         InlineKeyboardButton("💎 ǫᴜᴀʟɪᴛʏ ", callback_data=f"qualities#{key}#{offset}#{req}"),
@@ -439,7 +438,7 @@ async def year_search(client: Client, query: CallbackQuery):
         
    
     btn.insert(0,[
-	InlineKeyboardButton("💫 𝑹𝒆𝒎𝒐𝒗𝒆 𝑨𝒅𝒔", callback_data="/plan"),
+	InlineKeyboardButton("💫 𝑹𝒆𝒎𝒐𝒗𝒆 𝑨𝒅𝒔", callback_data="free"),
         ])
     btn.insert(1, [
         InlineKeyboardButton("💎 ǫᴜᴀʟɪᴛʏ ", callback_data=f"qualities#{key}#{offset}#{req}"),
@@ -549,7 +548,7 @@ async def quality_search(client: Client, query: CallbackQuery):
         
  
     btn.insert(0,[
-	InlineKeyboardButton("💫 𝑹𝒆𝒎𝒐𝒗𝒆 𝑨𝒅𝒔", callback_data="/plan"),
+	InlineKeyboardButton("💫 𝑹𝒆𝒎𝒐𝒗𝒆 𝑨𝒅𝒔", callback_data="free"),
         ])
     btn.insert(1, [
         InlineKeyboardButton("💎 ǫᴜᴀʟɪᴛʏ", callback_data=f"qualities#{key}#{offset}#{req}"),
@@ -664,7 +663,7 @@ async def lang_search(client: Client, query: CallbackQuery):
         
 
     btn.insert(0,[
-	InlineKeyboardButton("💫 𝑹𝒆𝒎𝒐𝒗𝒆 𝑨𝒅𝒔", callback_data="/plan"),
+	InlineKeyboardButton("💫 𝑹𝒆𝒎𝒐𝒗𝒆 𝑨𝒅𝒔", callback_data="free"),
         ])
     btn.insert(1, [
         InlineKeyboardButton("💎 ǫᴜᴀʟɪᴛʏ", callback_data=f"qualities#{key}#{offset}#{req}"),
@@ -867,11 +866,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
 	)
     elif query.data == "free":
         buttons = [[
-            InlineKeyboardButton('☆📸 𝙎𝙚𝙣𝙙 𝙨𝙘𝙧𝙚𝙚𝙣𝙨𝙝𝙤𝙩 📸☆', url=f'https://t.me/TvShOw076')
-        ],[
+            InlineKeyboardButton('☆📸 𝙎𝙚𝙣𝙙 𝙨𝙘𝙧𝙚𝙚𝙣𝙨𝙝𝙤𝙩 📸☆', url=f'https://t.me/TvShOw076'),
             InlineKeyboardButton('💎 𝗖𝘂𝘀𝘁𝗼𝗺 𝗣𝗹𝗮𝗻 💎', callback_data='other')
         ],[
-            InlineKeyboardButton('• 𝗕𝗮𝗰𝗸 •', callback_data='broze'),
             InlineKeyboardButton('• 𝗖𝗹𝗼𝘀𝗲 •', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)             
@@ -1487,7 +1484,7 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
     if offset != "":
         if total_results >= MAX_BTN:
             btn.insert(0,[
-                InlineKeyboardButton("💫 𝑹𝒆𝒎𝒐𝒗𝒆 𝑨𝒅𝒔", callback_data="/plan"),
+                InlineKeyboardButton("💫 𝑹𝒆𝒎𝒐𝒗𝒆 𝑨𝒅𝒔", callback_data="free"),
             ])
             btn.insert(1, [
                 InlineKeyboardButton("💎 ǫᴜᴀʟɪᴛʏ ", callback_data=f"qualities#{key}#{offset}#{req}"),
