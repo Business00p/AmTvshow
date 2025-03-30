@@ -857,13 +857,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
 	]]
         reply_markup = InlineKeyboardMarkup(btn)
 	    
-        await query.message.edit_media(
-            media=InputMediaPhoto(
-            media=random.choice(START_IMG),
-            caption=script.PREPLANS_TXT,
-            parse_mode=enums.ParseMode.HTML 
-            ),
-            reply_markup=reply_markup
+        m=await query.message.reply_sticker("CAACAgUAAxkBAAIehme3G3vGWd3qPLNNhsWGN8Bq_A0_AAJrFQACrG95VaIaQqsKmaMeHgQ-FOmYU0gLeJu7x4E") 
+        await m.delete()
+        await query.message.reply_photo(
+            photo=(SUBSCRIPTION),
+            caption=script.PREPLANS_TXT.format(query.from_user.mention),
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
 	)
     elif query.data == "free":
         buttons = [[
