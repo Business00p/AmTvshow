@@ -864,9 +864,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
 	)
-     elif query.data == "close_data":
-        await query.message.delete()
-
     elif query.data == "free":
         buttons = [[
             InlineKeyboardButton('☆📸 𝙎𝙚𝙣𝙙 𝙨𝙘𝙧𝙚𝙚𝙣𝙨𝙝𝙤𝙩 📸☆', url=f'https://t.me/TvShOw076'),
