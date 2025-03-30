@@ -190,7 +190,7 @@ async def next_page(bot, query):
                 for file in files
               ]
     btn.insert(0,[
-	InlineKeyboardButton("💫 𝑹𝒆𝒎𝒐𝒗𝒆 𝑨𝒅𝒔", callback_data="free"),
+	InlineKeyboardButton("💫 𝐁𝐔𝐘 𝐒𝐔𝐁𝐒𝐂𝐑𝐈𝐏𝐓𝐈𝐎𝐍: 𝐑𝐄𝐌𝐎𝐕𝐄 𝐀𝐃𝐒", callback_data="seeplans"),
         ])
     btn.insert(1, [
         InlineKeyboardButton("💎 ǫᴜᴀʟɪᴛʏ ", callback_data=f"qualities#{key}#{offset}#{req}"),
@@ -327,7 +327,7 @@ async def season_search(client: Client, query: CallbackQuery):
               ]
    
     btn.insert(0,[
-	InlineKeyboardButton("💫 𝑹𝒆𝒎𝒐𝒗𝒆 𝑨𝒅𝒔", callback_data="free"),
+	InlineKeyboardButton("💫 𝐁𝐔𝐘 𝐒𝐔𝐁𝐒𝐂𝐑𝐈𝐏𝐓𝐈𝐎𝐍: 𝐑𝐄𝐌𝐎𝐕𝐄 𝐀𝐃𝐒", callback_data="seeplans"),
         ])
     btn.insert(1, [
         InlineKeyboardButton("💎 ǫᴜᴀʟɪᴛʏ ", callback_data=f"qualities#{key}#{offset}#{req}"),
@@ -438,7 +438,7 @@ async def year_search(client: Client, query: CallbackQuery):
         
    
     btn.insert(0,[
-	InlineKeyboardButton("💫 𝑹𝒆𝒎𝒐𝒗𝒆 𝑨𝒅𝒔", callback_data="free"),
+	InlineKeyboardButton("💫 𝐁𝐔𝐘 𝐒𝐔𝐁𝐒𝐂𝐑𝐈𝐏𝐓𝐈𝐎𝐍: 𝐑𝐄𝐌𝐎𝐕𝐄 𝐀𝐃𝐒", callback_data="seeplans"),
         ])
     btn.insert(1, [
         InlineKeyboardButton("💎 ǫᴜᴀʟɪᴛʏ ", callback_data=f"qualities#{key}#{offset}#{req}"),
@@ -548,7 +548,7 @@ async def quality_search(client: Client, query: CallbackQuery):
         
  
     btn.insert(0,[
-	InlineKeyboardButton("💫 𝑹𝒆𝒎𝒐𝒗𝒆 𝑨𝒅𝒔", callback_data="free"),
+	InlineKeyboardButton("💫 𝐁𝐔𝐘 𝐒𝐔𝐁𝐒𝐂𝐑𝐈𝐏𝐓𝐈𝐎𝐍: 𝐑𝐄𝐌𝐎𝐕𝐄 𝐀𝐃𝐒", callback_data="seeplans"),
         ])
     btn.insert(1, [
         InlineKeyboardButton("💎 ǫᴜᴀʟɪᴛʏ", callback_data=f"qualities#{key}#{offset}#{req}"),
@@ -663,7 +663,7 @@ async def lang_search(client: Client, query: CallbackQuery):
         
 
     btn.insert(0,[
-	InlineKeyboardButton("💫 𝑹𝒆𝒎𝒐𝒗𝒆 𝑨𝒅𝒔", callback_data="free"),
+	InlineKeyboardButton("💫 𝐁𝐔𝐘 𝐒𝐔𝐁𝐒𝐂𝐑𝐈𝐏𝐓𝐈𝐎𝐍: 𝐑𝐄𝐌𝐎𝐕𝐄 𝐀𝐃𝐒", callback_data="seeplans"),
         ])
     btn.insert(1, [
         InlineKeyboardButton("💎 ǫᴜᴀʟɪᴛʏ", callback_data=f"qualities#{key}#{offset}#{req}"),
@@ -1484,7 +1484,7 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
     if offset != "":
         if total_results >= MAX_BTN:
             btn.insert(0,[
-                InlineKeyboardButton("💫 𝑹𝒆𝒎𝒐𝒗𝒆 𝑨𝒅𝒔", callback_data="free"),
+                InlineKeyboardButton("💫 𝐁𝐔𝐘 𝐒𝐔𝐁𝐒𝐂𝐑𝐈𝐏𝐓𝐈𝐎𝐍: 𝐑𝐄𝐌𝐎𝐕𝐄 𝐀𝐃𝐒", callback_data="seeplans"),
             ])
             btn.insert(1, [
                 InlineKeyboardButton("💎 ǫᴜᴀʟɪᴛʏ ", callback_data=f"qualities#{key}#{offset}#{req}"),
