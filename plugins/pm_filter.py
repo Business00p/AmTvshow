@@ -856,7 +856,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
 	    
 	]]
         reply_markup = InlineKeyboardMarkup(btn)
-	    
         m=await query.message.reply_sticker("CAACAgUAAxkBAAIehme3G3vGWd3qPLNNhsWGN8Bq_A0_AAJrFQACrG95VaIaQqsKmaMeHgQ-FOmYU0gLeJu7x4E") 
         await m.delete()
         await query.message.reply_photo(
@@ -865,6 +864,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
 	)
+     elif query.data == "close_data":
+        await query.message.delete()
+
     elif query.data == "free":
         buttons = [[
             InlineKeyboardButton('☆📸 𝙎𝙚𝙣𝙙 𝙨𝙘𝙧𝙚𝙚𝙣𝙨𝙝𝙤𝙩 📸☆', url=f'https://t.me/TvShOw076'),
