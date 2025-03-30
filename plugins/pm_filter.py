@@ -856,12 +856,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
 	    
 	]]
         reply_markup = InlineKeyboardMarkup(btn)
-        await query.message.edit_text(
-            text=script.PREPLANS_TXT,
-	    reply_markup=reply_markup,
-	    parse_mode=enums.ParseMode.HTML
-	)
 	    
+        await query.message.edit_media(
+            media=InputMediaPhoto(
+            media=random.choice(START_IMG),
+            caption=script.PREPLANS_TXT,
+            parse_mode=enums.ParseMode.HTML 
+            ),
+            reply_markup=reply_markup
+	)
     elif query.data == "free":
         buttons = [[
             InlineKeyboardButton('☆📸 𝙎𝙚𝙣𝙙 𝙨𝙘𝙧𝙚𝙚𝙣𝙨𝙝𝙤𝙩 📸☆', url=f'https://t.me/TvShOw076'),
