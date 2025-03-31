@@ -113,7 +113,11 @@ User - {}"""
 ⭐ Rating: {rating} / 10</b>
 """
 
-    FILE_CAPTION = """<b>📂FileName: {file_name} \n📑sɪᴢᴇ: {file_size} \n 𝖩𝗈𝗂𝗇➥ 「<a href="https://t.me/publictvshow">𝗧𝘃 𝘀𝗵𝗼𝘄 </a></b>""" 
+    FILE_CAPTION = """<b>📂 File Name:</b> {file_name}
+<b>📑 Size:</b> {file_size}
+
+<b>𝖩𝗈𝗂𝗇 ➥ <a href="{https://t.me/publictvshow}">𝗧𝘃 𝗦𝗵𝗼𝘄</a></b>
+"""
     
 
     ALRT_TXT = """ᴊᴀʟᴅɪ ʏᴇʜᴀ sᴇ ʜᴀᴛᴏ !"""
