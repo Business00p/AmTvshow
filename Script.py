@@ -113,13 +113,8 @@ User - {}"""
 ⭐ Rating: {rating} / 10</b>
 """
 
-    FILE_CAPTION = """<b>📂 File Name:</b> {file_name}
-<b>📑 Size:</b> {file_size}
-
-<b>𝖩𝗈𝗂𝗇 ➥ <a href="{https://t.me/publictvshow}">𝗧𝘃 𝗦𝗵𝗼𝘄</a></b>
-"""
+    FILE_CAPTION = """<b>📂 File Name:</b> {file_name} <b>📑 Size:</b> {file_size}\n<b>𝖩𝗈𝗂𝗇 ➥ <a href="{https://t.me/publictvshow}">𝗧𝘃 𝗦𝗵𝗼𝘄</a></b>"""
     
-
     ALRT_TXT = """ᴊᴀʟᴅɪ ʏᴇʜᴀ sᴇ ʜᴀᴛᴏ !"""
 
     OLD_ALRT_TXT = """ʏᴏᴜ ᴀʀᴇ ᴜsɪɴɢ ᴍʏ ᴏʟᴅ ᴍᴇssᴀɢᴇs..sᴇɴᴅ ᴀ ɴᴇᴡ ʀᴇǫᴜᴇsᴛ.."""
