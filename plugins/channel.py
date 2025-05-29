@@ -55,7 +55,8 @@ async def send_movie_updates(bot, file_name, file_id):
     if not poster_url or not caption:
         return
     btn = [
-        [InlineKeyboardButton('Get File', url=f'https://t.me/publicgeoup0')]
+        [InlineKeyboardButton('🔍Search Here', url=f'https://t.me/tvshowpublic')],
+        [InlineKeyboardButton('🌿Channel', url=f'https://t.me/publictvshow')]
     ]
     reply_markup = InlineKeyboardMarkup(btn)
     movie_update_channel =await db.movies_update_channel_id()
